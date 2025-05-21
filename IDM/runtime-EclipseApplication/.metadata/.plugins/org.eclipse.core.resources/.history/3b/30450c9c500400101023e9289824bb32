@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:simplepdl="http://simplepdl" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_3WX5IAQ5EfCk8Kh0VBGpMQ" selectedViews="_ApSM8ARQEfCGJr7NdgFNUw" version="15.4.1.202403191723">
+    <semanticResources>My.simplepdl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_ApSM8ARQEfCGJr7NdgFNUw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KXjpEARQEfCGJr7NdgFNUw" name="new ProcessDiagram" repPath="#_KWuioARQEfCGJr7NdgFNUw" changeId="1742340432816">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']"/>
+        <target xmi:type="simplepdl:Process" href="My.simplepdl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_KWuioARQEfCGJr7NdgFNUw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_KY4ewARQEfCGJr7NdgFNUw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_KY4ewQRQEfCGJr7NdgFNUw" type="Sirius" element="_KWuioARQEfCGJr7NdgFNUw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_hQcFUARQEfCGJr7NdgFNUw" type="2001" element="_hKXSgARQEfCGJr7NdgFNUw">
+          <children xmi:type="notation:Node" xmi:id="_hQlPQARQEfCGJr7NdgFNUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hQlPQQRQEfCGJr7NdgFNUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hQcFUQRQEfCGJr7NdgFNUw" fontName="Ubuntu Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hQcFUgRQEfCGJr7NdgFNUw" x="630" y="195" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_hQqu0ARQEfCGJr7NdgFNUw" type="2001" element="_hKf1YARQEfCGJr7NdgFNUw">
+          <children xmi:type="notation:Node" xmi:id="_hQskAARQEfCGJr7NdgFNUw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hQskAQRQEfCGJr7NdgFNUw" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hQqu0QRQEfCGJr7NdgFNUw" fontName="Ubuntu Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hQqu0gRQEfCGJr7NdgFNUw" x="670" y="205" width="20" height="20"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_KY4ewgRQEfCGJr7NdgFNUw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_KZKyoARQEfCGJr7NdgFNUw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_KZMAwARQEfCGJr7NdgFNUw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hKXSgARQEfCGJr7NdgFNUw">
+      <target xmi:type="simplepdl:WorkDefinition" href="My.simplepdl#//@processElements.0"/>
+      <semanticElements xmi:type="simplepdl:WorkDefinition" href="My.simplepdl#//@processElements.0"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@nodeMappings[name='WDNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hKf1YARQEfCGJr7NdgFNUw">
+      <target xmi:type="simplepdl:WorkDefinition" href="My.simplepdl#//@processElements.1"/>
+      <semanticElements xmi:type="simplepdl:WorkDefinition" href="My.simplepdl#//@processElements.1"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer/@nodeMappings[name='WDNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_KXO48ARQEfCGJr7NdgFNUw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.simplepdl.design/description/simplepdl.odesign#//@ownedViewpoints[name='simplepdlViewpoint']/@ownedRepresentations[name='ProcessDiagram']/@defaultLayer"/>
+    <target xmi:type="simplepdl:Process" href="My.simplepdl#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
