@@ -1,0 +1,86 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-2216578317459408735 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 0\n/\\ nbCannibalesG = 3",style = filled]
+-2216578317459408735 -> -405975888127764939 [label="",color="2",fontcolor="2"];
+-405975888127764939 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 0\n/\\ nbCannibalesG = 3"];
+-405975888127764939 -> -405975888127764939 [label="",color="2",fontcolor="2"];
+-2216578317459408735 -> 3320392441838996246 [label="",color="2",fontcolor="2"];
+3320392441838996246 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+-405975888127764939 -> 3320392441838996246 [label="",color="2",fontcolor="2"];
+-2216578317459408735 -> -6653477502887602021 [label="",color="2",fontcolor="2"];
+-6653477502887602021 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 1\n/\\ nbMissionnairesG = 2\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+3320392441838996246 -> 3320392441838996246 [label="",color="2",fontcolor="2"];
+-405975888127764939 -> -6653477502887602021 [label="",color="2",fontcolor="2"];
+-6653477502887602021 -> -6653477502887602021 [label="",color="2",fontcolor="2"];
+3320392441838996246 -> -6653477502887602021 [label="",color="2",fontcolor="2"];
+-405975888127764939 -> -6604761833440362456 [label="",color="2",fontcolor="2"];
+-2216578317459408735 -> -6604761833440362456 [label="",color="2",fontcolor="2"];
+-6604761833440362456 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+3320392441838996246 -> -6604761833440362456 [label="",color="2",fontcolor="2"];
+-6653477502887602021 -> 5643000146557424602 [label="",color="2",fontcolor="2"];
+5643000146557424602 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+-2216578317459408735 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+-405975888127764939 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+3320392441838996246 -> 8079145860535622923 [label="",color="2",fontcolor="2"];
+8079145860535622923 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 3\n/\\ nbCannibalesG = 0"];
+-6653477502887602021 -> 5310522213439785833 [label="",color="2",fontcolor="2"];
+5310522213439785833 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 2\n/\\ nbMissionnairesG = 1\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+-6604761833440362456 -> -6604761833440362456 [label="",color="2",fontcolor="2"];
+5643000146557424602 -> 5643000146557424602 [label="",color="2",fontcolor="2"];
+3320392441838996246 -> 3851960327483581826 [label="",color="3",fontcolor="3"];
+3851960327483581826 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+5643000146557424602 -> -4319869095307241244 [label="",color="2",fontcolor="2"];
+-4319869095307241244 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+-6653477502887602021 -> -5131122105585355249 [label="",color="3",fontcolor="3"];
+-5131122105585355249 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 1\n/\\ nbMissionnairesG = 2\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+-6604761833440362456 -> 5310522213439785833 [label="",color="2",fontcolor="2"];
+3320392441838996246 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+-6604761833440362456 -> 8079145860535622923 [label="",color="2",fontcolor="2"];
+-6653477502887602021 -> 3851960327483581826 [label="",color="3",fontcolor="3"];
+5643000146557424602 -> 1172472693022770631 [label="",color="2",fontcolor="2"];
+1172472693022770631 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 3\n/\\ nbCannibalesG = 0"];
+8079145860535622923 -> 8079145860535622923 [label="",color="2",fontcolor="2"];
+-6604761833440362456 -> -4668083490992935236 [label="",color="3",fontcolor="3"];
+-4668083490992935236 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+-6653477502887602021 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+-6604761833440362456 -> 3851960327483581826 [label="",color="3",fontcolor="3"];
+5310522213439785833 -> 5310522213439785833 [label="",color="2",fontcolor="2"];
+8079145860535622923 -> 7745745566905267103 [label="",color="3",fontcolor="3"];
+7745745566905267103 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 3\n/\\ nbCannibalesG = 0"];
+5310522213439785833 -> -4319869095307241244 [label="",color="2",fontcolor="2"];
+-6604761833440362456 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+8079145860535622923 -> -4668083490992935236 [label="",color="3",fontcolor="3"];
+5310522213439785833 -> 1172472693022770631 [label="",color="2",fontcolor="2"];
+3851960327483581826 -> 3320392441838996246 [label="",color="2",fontcolor="2"];
+8079145860535622923 -> 3851960327483581826 [label="",color="3",fontcolor="3"];
+3851960327483581826 -> -6653477502887602021 [label="",color="2",fontcolor="2"];
+5310522213439785833 -> 5967917144885470717 [label="",color="3",fontcolor="3"];
+5967917144885470717 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 2\n/\\ nbMissionnairesG = 1\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+3851960327483581826 -> -6604761833440362456 [label="",color="2",fontcolor="2"];
+-4319869095307241244 -> -4319869095307241244 [label="",color="2",fontcolor="2"];
+3851960327483581826 -> 8079145860535622923 [label="",color="2",fontcolor="2"];
+3851960327483581826 -> 3851960327483581826 [label="",color="3",fontcolor="3"];
+3851960327483581826 -> -2216578317459408735 [label="",color="3",fontcolor="3"];
+-4319869095307241244 -> 1172472693022770631 [label="",color="2",fontcolor="2"];
+5310522213439785833 -> -4668083490992935236 [label="",color="3",fontcolor="3"];
+5310522213439785833 -> -5131122105585355249 [label="",color="3",fontcolor="3"];
+-4319869095307241244 -> -2347445071756069264 [label="",color="3",fontcolor="3"];
+-2347445071756069264 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+-4319869095307241244 -> 5967917144885470717 [label="",color="3",fontcolor="3"];
+-4319869095307241244 -> 6138257219314171214 [label="",color="3",fontcolor="3"];
+6138257219314171214 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+-4319869095307241244 -> -9122410298420797331 [label="",color="3",fontcolor="3"];
+-9122410298420797331 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 0\n/\\ nbCannibalesG = 3"];
+{rank = same; -2216578317459408735;}
+{rank = same; 3320392441838996246;-6653477502887602021;-405975888127764939;-6604761833440362456;}
+{rank = same; 5643000146557424602;8079145860535622923;3851960327483581826;5310522213439785833;}
+{rank = same; -4319869095307241244;}
+}
+subgraph cluster_legend {graph[style=bold];label = "Next State Actions" style="solid"
+node [ labeljust="l",colorscheme="paired12",style=filled,shape=record ]
+bougeDG [label="bougeDG",fillcolor=3]
+bougeGD [label="bougeGD",fillcolor=2]
+}}

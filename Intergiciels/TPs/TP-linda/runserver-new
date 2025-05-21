@@ -1,0 +1,36 @@
+#! /bin/sh
+#
+# Start the tspaces server
+# **  Options:
+# **    [-S]                        Start the HTTP debug interface
+# **    [-a password]               Specify sysadmin password
+# **    [-b]                        boot TSpaces from scratch
+# **    [-B]                        boot TSpaces and userinfo from scratch
+# **    [-c configurationFilename]  Configuration filepath
+# **    [-d writabledirectory]      specify a checkpoint directory
+# **    [-p port#]                  specify a port number
+# **    [-i double]                 specify a checkpoint interval
+# **    [-D]                        Turn on Debug output
+# **    [-Dmax]                     Turn on Maximum Debug support
+# **    [-S]                        Enable the HTTP Server interface
+# **    [-A]                        Enable Administrative HTTP functions
+# **                                   -A implies -S 
+# **    [-noPrompt]                 disable prompt for subcommands
+#
+#  **	Note that the spaces after -d and -p are needed
+
+TSPACES=.
+#TSPACES=/opt/tspaces/lib
+export TSPACES
+if [ ! -f $TSPACES/tspaces.jar ] ; then
+    echo "tspaces.jar not found."
+    exit 1
+fi
+
+JAR=$TSPACES/tspaces.jar
+FIXES=$TSPACES/tspaces_fixes.jar
+JOPTS="-mx32m -Xbootclasspath/a:acl.jar"
+CLASSPATH=".:$FIXES:$JAR:$CLASSPATH"
+export CLASSPATH
+java $JOPTS com.ibm.tspaces.server.TSServer $*  
+

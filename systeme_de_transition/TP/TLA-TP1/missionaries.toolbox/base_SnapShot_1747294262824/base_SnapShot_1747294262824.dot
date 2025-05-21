@@ -1,0 +1,32 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+8619814044019590008 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 0\n/\\ nbCannibalesG = 3",style = filled]
+8619814044019590008 -> 6007499933218188930 [label="",color="2",fontcolor="2"];
+6007499933218188930 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 1\n/\\ nbMissionnairesG = 2\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+8619814044019590008 -> -548361929199477451 [label="",color="2",fontcolor="2"];
+-548361929199477451 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+6007499933218188930 -> -9182814773711527890 [label="",color="2",fontcolor="2"];
+-9182814773711527890 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 3\n/\\ nbMissionnairesG = 0\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+-548361929199477451 -> 3147216221412758425 [label="",color="2",fontcolor="2"];
+3147216221412758425 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 2\n/\\ nbMissionnairesG = 1\n/\\ nbCannibalesD = 2\n/\\ nbCannibalesG = 1"];
+6007499933218188930 -> 3147216221412758425 [label="",color="2",fontcolor="2"];
+8619814044019590008 -> -6394066791552998341 [label="",color="3",fontcolor="3"];
+-6394066791552998341 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = -2\n/\\ nbMissionnairesG = 5\n/\\ nbCannibalesD = 0\n/\\ nbCannibalesG = 3"];
+-548361929199477451 -> -8686900806743592364 [label="",color="2",fontcolor="2"];
+-8686900806743592364 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 0\n/\\ nbMissionnairesG = 3\n/\\ nbCannibalesD = 4\n/\\ nbCannibalesG = -1"];
+-9182814773711527890 -> 7808277000090985132 [label="",color="2",fontcolor="2"];
+7808277000090985132 [label="/\\ barque = \"D\"\n/\\ nbMissionnairesD = 5\n/\\ nbMissionnairesG = -2\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+6007499933218188930 -> -8137171935196033230 [label="",color="3",fontcolor="3"];
+-8137171935196033230 [label="/\\ barque = \"G\"\n/\\ nbMissionnairesD = -1\n/\\ nbMissionnairesG = 4\n/\\ nbCannibalesD = 1\n/\\ nbCannibalesG = 2"];
+{rank = same; 8619814044019590008;}
+{rank = same; 6007499933218188930;-548361929199477451;}
+{rank = same; -9182814773711527890;}
+}
+subgraph cluster_legend {graph[style=bold];label = "Next State Actions" style="solid"
+node [ labeljust="l",colorscheme="paired12",style=filled,shape=record ]
+bougeDG [label="bougeDG",fillcolor=3]
+bougeGD [label="bougeGD",fillcolor=2]
+}}
